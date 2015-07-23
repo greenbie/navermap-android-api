@@ -25,5 +25,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile(name:'nmaps', ext:'aar')
+    compile 'com.naver.maps.open:naver-map-api:2.1.0@aar'
 }
